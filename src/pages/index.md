@@ -31,7 +31,7 @@ link5:
 link6:
   text: placeholder
   url: na
-  visible: false
+  visible: true
   active: false
 link7:
   text: placeholder
