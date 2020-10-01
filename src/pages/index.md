@@ -30,8 +30,8 @@ link5:
   active: true
 link6:
   text: placeholder
-  url: na
-  visible: true
+  url: myurl.com
+  visible: false
   active: false
 link7:
   text: placeholder
