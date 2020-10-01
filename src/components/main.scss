@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,600&display=swap');
+$font: 'Serif';
+$mobilebreak: 769px;
+// $maincontainerbg: pink;
+// $subcontainerbg: magenta;
+// $linksbg: orange;
+
+$maincontainerbg: white;
+$subcontainerbg: white;
+$linksbg: white;
+
+
+.maincontainer {
+    font-family: 'Crimson Text', serif;
+    margin: 0 auto;
+    background-color: $maincontainerbg;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .subcontainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: $subcontainerbg;
+        width: 100%;
+        position: relative;
+        @media screen and (max-width: $mobilebreak) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+          }
+        .subcontainer__logoicons {
+            position: absolute;
+            left: 29.5%;
+            display: flex;
+            flex-direction: column;
+            @media screen and (max-width: $mobilebreak) {
+                margin-top: 3%;
+                position: relative;
+                left: auto;
+              }
+            .subcontainer__logo {
+                max-width: 500px;
+                @media screen and (max-width: $mobilebreak) {
+                    margin-top: 10%;
+                    max-width: 70%;
+                    align-self: center;
+                    position: relative;
+                    left: auto;
+                  }
+            }
+            .subcontainer__iconscontainer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                opacity: 0;
+                -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+                animation: 3s ease 0s normal forwards 1 fadein;
+                animation-delay: 2000ms;
+                .subcontainer__iconitemflex {
+                    display: flex;
+                    width: 60%;
+                    justify-content: space-evenly;
+                }
+                .subcontainer__iconitem {
+                    padding: 5px;
+                    .subcontainer__comingsoon {
+                        font-family: 'Crimson Text', serif;
+                        text-transform: uppercase;
+                        font-size: 1.5rem;
+                        letter-spacing: 10px;
+                        white-space: nowrap;
+                        @media screen and (max-width: $mobilebreak) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .subcontainer__links {
+            background-color: $linksbg;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 25px;
+            opacity: 0;
+            @media screen and (max-width: $mobilebreak) {
+                margin-top: 25px;
+                text-align: center;
+                // min-width: 200px;
+            }
+            -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+            animation: 3s ease 0s normal forwards 1 fadein;
+            animation-delay: 2700ms;
+            .subcontainer__link {
+                font-family: 'Crimson Text', serif;;
+                font-size: 1.1rem;
+                text-decoration: none;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+// .main__a {
+//     // border-bottom: 3px solid #222;
+// }
+
+.main__a--active {
+    color: #222;
+    border-bottom: 2.5px solid #222;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+    &:hover {
+        color: #555555;
+        border-bottom: 2.5px solid #555555;
+    }
+}
+
+.main__a--inactive {
+    color: #a5a5a5;
+    border-bottom: 2.5px solid #a5a5a5;
+    cursor: default;
+    pointer-events: none;
+    &:hover {
+        pointer-events: none;
+        color: #a5a5a5;
+        border-bottom: 2.5px solid #a5a5a5;
+    }
+}
+
+.main__a--nounderline {
+    border-bottom: 0px solid #fff;
+    &:hover {
+        border-bottom: 0px solid #fff;
+    }
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.errorcontainer {
+    display: flex;
+    flex-direction: column;
+}
