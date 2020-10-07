@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Neal Page
 iconlink1: htttps://instagram.com
-iconlink2: mailto:artist@nealpage.com
+iconlink2: mailto:nwp32@comcast.net
 link1:
   text: Exhibition
   url: exhibition
@@ -25,7 +25,7 @@ link4:
   active: false
 link5:
   text: Contact/Inquiry
-  url: mailto:artist@nealpage.com
+  url: mailto:nwp32@comcast.net
   visible: true
   active: true
 link6:
