@@ -21,8 +21,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Iconlink1, name: iconlink1, widget: string}
-          - {label: Iconlink2, name: iconlink2, widget: string}
+          - {label: Iconlink1, name: iconlink1, widget: object, fields: [{label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
+          - {label: Iconlink2, name: iconlink2, widget: object, fields: [{label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
           - {label: link1, name: link1, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
           - {label: link2, name: link2, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
           - {label: link3, name: link3, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
@@ -31,6 +31,7 @@ collections:
           - {label: link6, name: link6, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
           - {label: link7, name: link7, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
           - {label: link8, name: link8, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: text}, {label: "Visible", name: "visible", widget: "boolean"}, {label: "Active", name: "active", widget: "boolean"}]}
+          - {label: midtext, name: midtext, widget: object, fields: [{label: Text, name: text, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}]}
       - file: "src/pages/exhibition/index.md"
         label: "Exhibition Page"
         name: "exhibition"
@@ -39,3 +40,30 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: exhibition1, name: exhibition1, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
+          - {label: ex1_img1, name: image, widget: image}
+          - {label: ex1_img2, name: image, widget: image}
+          - {label: ex1_img3, name: image, widget: image}
+          - {label: ex1_img4, name: image, widget: image}
+          - {label: ex1_img5, name: image, widget: image}
+          - {label: exhibition2, name: exhibition2, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
+          - {label: ex2_img1, name: image, widget: image}
+          - {label: ex2_img2, name: image, widget: image}
+          - {label: ex2_img3, name: image, widget: image}
+          - {label: ex2_img4, name: image, widget: image}
+          - {label: ex2_img5, name: image, widget: image}
+          - {label: exhibition3, name: exhibition1, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
+          - {label: ex3_img1, name: image, widget: image}
+          - {label: ex3_img2, name: image, widget: image}
+          - {label: ex3_img3, name: image, widget: image}
+          - {label: ex3_img4, name: image, widget: image}
+          - {label: ex3_img5, name: image, widget: image}
+      - file: "src/pages/bio/index.md"
+        label: "Bio Page"
+        name: "bio"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "bio-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+      

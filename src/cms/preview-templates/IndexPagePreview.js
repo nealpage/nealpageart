@@ -16,6 +16,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         link5={data.link5 || {}}
         iconlink1={data.iconlink1}
         iconlink2={data.iconlink2}
+        midtext={data.midtext}
       />
     )
   } else {

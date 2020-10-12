@@ -1,11 +1,20 @@
 ---
 templateKey: index-page
 title: Neal Page
-iconlink1: htttps://instagram.com
-iconlink2: mailto:nwp32@comcast.net
+midtext: 
+  text: Coming Soon
+  visible: true
+iconlink1:
+  url: htttps://instagram.com
+  visible: true
+  active: false
+iconlink2:
+  url: mailto:nwp32@comcast.net
+  visible: true
+  active: true
 link1:
   text: Exhibition
-  url: exhibition
+  url: /exhibition
   visible: true
   active: false
 link2:
@@ -20,7 +29,7 @@ link3:
   active: false
 link4:
   text: Artist Bio
-  url: bio
+  url: /bio
   visible: true
   active: false
 link5:

@@ -1,0 +1,36 @@
+$mobilebreak: 769px;
+
+.bio__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 350px;
+    min-height: 475px;
+    margin-left: 30px;
+    @media screen and (max-width: $mobilebreak) {
+        // min-width: 60%;
+        // max-width: 100%;
+        // padding: 10px;
+        margin-left: 0px;
+        align-self: flex-start;
+        justify-self: flex-start;
+        background-position: left;
+    }
+}
+
+.bio__desccontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    max-width: 45%;
+    @media screen and (max-width: $mobilebreak) {
+        max-width: 100%;
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+    .bio__title {
+        text-transform: uppercase;
+        margin: 10px 0px;
+    }
+}
+

@@ -24,8 +24,8 @@ export const IndexPageTemplate = ({
   link7,
   link8,
   iconlink1,
-  iconlink2
-  
+  iconlink2,
+  midtext
 }) => {
 
   console.log(iconlink2)
@@ -60,6 +60,9 @@ export const IndexPageTemplate = ({
     })
   }
 
+  const activeSocialLinksStyles = 'main__a--nounderline main__a--active'
+  const nonactiveSocialLinksStyles = 'main__a--nounderline main__a--inactive'
+
   return (
     <>
       <div className="subcontainer">
@@ -69,10 +72,10 @@ export const IndexPageTemplate = ({
               <Nplogo />
           </div>
           <div className="subcontainer__iconscontainer">
-            <div className="subcontainer__iconitem"><p className="subcontainer__comingsoon">Coming Soon</p></div>
+            {midtext.visible ? <div className="subcontainer__iconitem"><p className="subcontainer__comingsoon">{midtext.text}</p></div> : null}
             <div className="subcontainer__iconitem subcontainer__iconitemflex">
-              <a className="main__a--nounderline main__a--inactive" href={iconlink1}><div className="subcontainer__icon">{igIcon}</div></a>
-              <a className="main__a--nounderline main__a--active" href={iconlink2}><div className="subcontainer__icon">{mailIcon}</div></a>
+              {(iconlink1.visible) ? <a className={(iconlink1.active ? activeSocialLinksStyles : nonactiveSocialLinksStyles)} href={iconlink1.url}><div className="subcontainer__icon">{igIcon}</div></a> : null}
+              {(iconlink2.visible) ? <a className={(iconlink2.active ? activeSocialLinksStyles : nonactiveSocialLinksStyles)} href={iconlink2.url}><div className="subcontainer__icon">{mailIcon}</div></a> : null}
             </div>
           </div>
         </div>
@@ -97,7 +100,8 @@ IndexPageTemplate.propTypes = {
   link5: PropTypes.object,
   link6: PropTypes.object,
   link7: PropTypes.object,
-  link8: PropTypes.object
+  link8: PropTypes.object,
+  midtext: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -115,6 +119,7 @@ const IndexPage = ({ data }) => {
         link6={frontmatter.link6}
         link7={frontmatter.link7}
         link8={frontmatter.link8}
+        midtext={frontmatter.midtext}
         iconlink1={frontmatter.iconlink1}
         iconlink2={frontmatter.iconlink2}
       />
@@ -137,6 +142,10 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        midtext {
+          text
+          visible
+        }
         link1 {
           text
           url
@@ -185,8 +194,16 @@ export const pageQuery = graphql`
           visible
           active
         }
-        iconlink1
-        iconlink2
+        iconlink1 {
+          url
+          visible
+          active
+        }
+        iconlink2 {
+          url
+          visible
+          active
+        }
       }
     }
   }
