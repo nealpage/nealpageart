@@ -41,23 +41,23 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
           - {label: exhibition1, name: exhibition1, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
-          - {label: ex1_img1, name: image, widget: image}
-          - {label: ex1_img2, name: image, widget: image}
-          - {label: ex1_img3, name: image, widget: image}
-          - {label: ex1_img4, name: image, widget: image}
-          - {label: ex1_img5, name: image, widget: image}
+          - {label: ex1_img1, name: ex1_img1, widget: image}
+          - {label: ex1_img2, name: ex1_img2, widget: image}
+          - {label: ex1_img3, name: ex1_img3, widget: image}
+          - {label: ex1_img4, name: ex1_img4, widget: image}
+          - {label: ex1_img5, name: ex1_img5, widget: image}
           - {label: exhibition2, name: exhibition2, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
-          - {label: ex2_img1, name: image, widget: image}
-          - {label: ex2_img2, name: image, widget: image}
-          - {label: ex2_img3, name: image, widget: image}
-          - {label: ex2_img4, name: image, widget: image}
-          - {label: ex2_img5, name: image, widget: image}
-          - {label: exhibition3, name: exhibition1, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
-          - {label: ex3_img1, name: image, widget: image}
-          - {label: ex3_img2, name: image, widget: image}
-          - {label: ex3_img3, name: image, widget: image}
-          - {label: ex3_img4, name: image, widget: image}
-          - {label: ex3_img5, name: image, widget: image}
+          - {label: ex2_img1, name: ex2_img1, widget: image}
+          - {label: ex2_img2, name: ex2_img2, widget: image}
+          - {label: ex2_img3, name: ex2_img3, widget: image}
+          - {label: ex2_img4, name: ex2_img4, widget: image}
+          - {label: ex2_img5, name: ex2_img5, widget: image}
+          - {label: exhibition3, name: exhibition3, widget: object, fields: [{label: Title, name: title, widget: string}, {label: "Visible", name: "visible", widget: "boolean"}, {label: Description, name: description, widget: text}, {label: "img1visible", name: "img1visible", widget: "boolean"}, {label: "img2visible", name: "img2visible", widget: "boolean"}, {label: "img3visible", name: "img3visible", widget: "boolean"}, {label: "img4visible", name: "img4visible", widget: "boolean"}, {label: "img5visible", name: "img5visible", widget: "boolean"}]}
+          - {label: ex3_img1, name: ex3_img1, widget: image}
+          - {label: ex3_img2, name: ex3_img2, widget: image}
+          - {label: ex3_img3, name: ex3_img3, widget: image}
+          - {label: ex3_img4, name: ex3_img4, widget: image}
+          - {label: ex3_img5, name: ex3_img5, widget: image}
       - file: "src/pages/bio/index.md"
         label: "Bio Page"
         name: "bio"
