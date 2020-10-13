@@ -49,9 +49,13 @@ $linksbg: white;
             margin-bottom: 10px;
             @media screen and (max-width: $mobilebreak) {
                 margin-left: 0px;
+                // min-height: 25vh;
                 min-width: 70vw;
-                min-height: 25vh;
             }
+            @media screen and (orientation:portrait) {
+                /* Portrait styles here */
+                min-height: 25vh;
+             }
         }
     }
 }
@@ -72,5 +76,10 @@ $linksbg: white;
     .exh__title {
         text-transform: uppercase;
         margin: 10px 0px;
+    }
+    .exh__desc {
+        @media screen and (max-width: $mobilebreak) {
+            max-width: 90%;
+        }
     }
 }

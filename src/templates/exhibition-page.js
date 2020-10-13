@@ -73,7 +73,7 @@ export const ExhibitionPageTemplate = ({
     </div>
     <div className="exh__desccontainer">
         <h1 className="exh__title">{exhibition1.title}</h1>
-        <p>{exhibition1.description}</p>
+        <p className="exh__desc">{exhibition1.description}</p>
     </div>
         
   </div> : null}
@@ -119,7 +119,7 @@ export const ExhibitionPageTemplate = ({
     </div>
     <div className="exh__desccontainer">
         <h1 className="exh__title">{exhibition2.title}</h1>
-        <p>{exhibition2.description}</p>
+        <p className="exh__desc">{exhibition2.description}</p>
     </div>
         
   </div> : null}
@@ -165,7 +165,7 @@ export const ExhibitionPageTemplate = ({
     </div>
     <div className="exh__desccontainer">
         <h1 className="exh__title">{exhibition3.title}</h1>
-        <p>{exhibition3.description}</p>
+        <p className="exh__desc">{exhibition3.description}</p>
     </div>
         
   </div> : null}
