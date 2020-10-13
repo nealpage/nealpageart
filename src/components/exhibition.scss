@@ -10,6 +10,10 @@ $linksbg: white;
 .exh {
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: $mobilebreak) {
+        margin: 20px;
+        width: 95%;
+    }
 }
 
 .exh_subcontainer {
@@ -20,12 +24,12 @@ $linksbg: white;
     background-color: $subcontainerbg;
     width: 100%;
     position: relative;
-    margin: 25px;
+    // margin: 25px;
     @media screen and (max-width: $mobilebreak) {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin: 20px;
+        // margin: 20px;
       }
     .exh__imgcontainer {
         width: 100%;
@@ -44,14 +48,9 @@ $linksbg: white;
             margin-left: 30px;
             margin-bottom: 10px;
             @media screen and (max-width: $mobilebreak) {
-                min-width: 465px;
-                // max-width: 100%;
-                // padding: 10px;
                 margin-left: 0px;
-                margin-bottom: 5px;
-                // align-self: flex-start;
-                // justify-self: flex-start;
-                // background-position: left;
+                min-width: 70vw;
+                min-height: 25vh;
             }
         }
     }
@@ -60,7 +59,7 @@ $linksbg: white;
 .exh__desccontainer {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     max-width: 35%;
     align-self: flex-start;
     justify-self: flex-start;

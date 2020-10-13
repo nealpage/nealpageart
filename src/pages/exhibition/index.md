@@ -20,7 +20,7 @@ exhibition1:
     assumenda.
   img1visible: true
   img2visible: true
-  img3visible: true
+  img3visible: false
   img4visible: false
   img5visible: false
 ex1_img1: /img/npwide1.jpg
