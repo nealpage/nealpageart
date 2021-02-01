@@ -23,7 +23,7 @@ exhibition1:
   img2visible: true
   img3visible: true
   img4visible: true
-  img5visible: true
+  img5visible: false
 ex1_img1: /img/neal-sculpture-003.jpg
 ex1_img2: /img/neal-sculpture-005.jpg
 ex1_img3: /img/neal-sculpture-004.jpg
