@@ -3,24 +3,22 @@ templateKey: exhibition-page
 title: Neal Page Exhibition
 image: /img/logo_-core-.jpg
 mainpitch:
-  title: The Stop Sign, 2020
+  title: Neal Page Exhibition
   description: |+
-    Enamel, Steel, Concrete. 120” x 44” x 16”
-
+    2021
 
 exhibition1:
-  title: Concept Statement
+  title: The Stop Sign, 2020
   visible: true
-  description: "Conceptualized in 2017 & created in the wake of 2020’s police
-    brutality, discrimination, and injustice, The Stop Sign serves as a central
-    focal point to imbue social activism toward injustices of every kind. Black
-    enamel paint, American steel, and Detroit concrete pridefully come together
-    in its delivery of resistance at 10 feet tall. The sculpture signifies an
-    oversized readymade w/ a direct call-to-action, using pedestrian signage as
-    the familiarized, conceptual figure.  Inspired by Giacometti’s harrowing
-    life-sized sculptures, The Stop Sign’s direction seeks to empower resistance
-    to the unacceptable injustices, whether cultural, social, or institutional.
-    "
+  description: >-
+    
+
+    Conceptualized in 2017 & created in the wake of 2020’s gross police brutality, discrimination, and injustice, The Stop Sign serves as a central focal point to imbue social activism toward injustices of every kind. Black enamel paint, American steel, and Detroit concrete pridefully come together in its delivery of resistance at 10 feet tall. The sculpture signifies an oversized readymade w/ a direct call-to-action, using pedestrian signage as the familiarized, conceptual figure.  Inspired by Giacometti’s harrowing life-sized sculptures, The Stop Sign’s direction seeks to empower resistance to the unacceptable injustices, whether cultural, social, or institutional. 
+
+
+    Enamel, Steel, Concrete.
+
+    120” x 44” x 16”.
   img1visible: true
   img2visible: true
   img3visible: true
@@ -30,7 +28,7 @@ ex1_img1: /img/neal-sculpture-003.jpg
 ex1_img2: /img/neal-sculpture-005.jpg
 ex1_img3: /img/neal-sculpture-004.jpg
 ex1_img4: /img/neal-sculpture-006.jpg
-ex1_img5: /img/neal-sculpture-002.jpg
+ex1_img5: /img/chemex.jpg
 exhibition2:
   title: exhibition 2 name
   visible: false
@@ -44,7 +42,7 @@ exhibition2:
   img2visible: true
   img3visible: true
   img4visible: true
-  img5visible: true
+  img5visible: false
 ex2_img1: /img/npwide2.jpg
 ex2_img2: /img/npwide2.jpg
 ex2_img3: /img/npwide2.jpg
