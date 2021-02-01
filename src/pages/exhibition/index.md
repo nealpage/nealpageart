@@ -18,7 +18,7 @@ exhibition1:
 
     Enamel, Steel, Concrete.
 
-    120” x 44” x 16”. © 2020, Neal Page.
+    Dimensions: 120” x 44” x 16”. © 2020, Neal Page.
   img1visible: true
   img2visible: true
   img3visible: true
