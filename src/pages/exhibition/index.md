@@ -16,9 +16,9 @@ exhibition1:
     Conceptualized in 2017 & created in the wake of 2020’s police brutality, discrimination, and injustice, The Stop Sign serves as a central focal point to imbue social activism toward injustices of every kind. Black enamel paint, American steel, and Detroit concrete pridefully come together in its delivery of resistance at 10 feet tall. The sculpture signifies an oversized readymade with a direct call-to-action, using pedestrian signage as the familiarized, conceptual figure.  Inspired by Giacometti’s harrowing life-sized sculptures, The Stop Sign’s direction seeks to empower resistance to the unacceptable injustices, whether cultural, social, or institutional. 
 
 
-    Enamel, Steel, Concrete.
+    Medium: Enamel, Steel, Concrete.
 
-    120” x 44” x 16”. © 2020, Neal Page.
+    Dimensions: 120” x 44” x 16” © 2020, Neal Page.
   img1visible: true
   img2visible: true
   img3visible: true
