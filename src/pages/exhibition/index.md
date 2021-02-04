@@ -1,7 +1,7 @@
 ---
 templateKey: exhibition-page
 title: Neal Page Exhibition
-image: /img/logo_-core-.jpg
+image: /img/apple-touch-icon.png
 mainpitch:
   title: Neal Page Exhibition
   description: |+
