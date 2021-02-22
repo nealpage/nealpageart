@@ -1,7 +1,7 @@
 ---
 templateKey: bio-page
 title: Neal Page | Artist Bio
-image: /img/npbioexample.jpg
+image: /img/neal-sculpture-002.jpg
 bioinfo:
   title: Neal Page
   description: >
