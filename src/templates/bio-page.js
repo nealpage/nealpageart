@@ -30,7 +30,7 @@ export const BioPageTemplate = ({
 BioPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  mainpitch: PropTypes.object,
+  bioinfo: PropTypes.object,
 }
 
 const BioPage = ({ data }) => {

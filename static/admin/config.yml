@@ -65,5 +65,5 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "bio-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: bioinfo, name: bioinfo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
       
