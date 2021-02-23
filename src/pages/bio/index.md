@@ -3,7 +3,7 @@ templateKey: bio-page
 title: Neal Page | Artist Bio
 image: /img/neal-sculpture-002.jpg
 bioinfo:
-  title: Neal Page <&nbsp><&nbsp>b. 1994, American Conceptual Artist.
+  title: Neal Page <p> b. 1994, American Conceptual Artist.
 ---
 **Education:** Michigan State University, 2016. Cite Internationale Universitaire de Paris, 2015. University of Kansas, 2014.<br> 
 **Apprenticeship:** Oliver Cole Gallery Wynwood, Miami, FL, 2018. Haigs of Rochester, Rochester, MI, 2019.\
