@@ -8,6 +8,7 @@ import Layout from '../components/Layout'
 export const BioPageTemplate = ({
   image,
   title,
+  body,
   bioinfo,
 }) => (
     <>
@@ -16,6 +17,7 @@ export const BioPageTemplate = ({
         <div className="bio__desccontainer">
             <h1 className="bio__title">{bioinfo.title}</h1>
             <p>{bioinfo.description}</p>
+            <p>{body}</p>
         </div>
         <div className="bio__image" style={{
             backgroundImage: `url(${
@@ -30,6 +32,7 @@ export const BioPageTemplate = ({
 BioPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  body: PropTypes.string,
   bioinfo: PropTypes.object,
 }
 
@@ -41,6 +44,7 @@ const BioPage = ({ data }) => {
       <BioPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        body={frontmatter.body}
         bioinfo={frontmatter.bioinfo}
       />
     </Layout>
@@ -62,6 +66,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "bio-page" } }) {
       frontmatter {
         title
+        body
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
