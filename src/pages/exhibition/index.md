@@ -13,7 +13,7 @@ exhibition1:
   description: >-
     
 
-    Conceptualized in 2017 & created in the wake of 2020’s police brutality, discrimination, and injustice, The Stop Sign serves as a central focal point to inspire social activism toward injustices of every kind. Black enamel paint, American steel, and Detroit concrete pridefully come together in its delivery of resistance at 10 feet tall. The sculpture signifies an oversized readymade with a direct call-to-action, using pedestrian signage as the familiarized, conceptual figure.  Inspired by Giacometti’s harrowing life-sized sculptures, The Stop Sign’s direction seeks to empower resistance to the unacceptable injustices, whether cultural, social, or institutional. 
+    Conceptualized in 2017 and created in the wake of 2020’s police brutality, discrimination, and injustice, The Stop Sign serves as a central focal point to inspire social activism toward injustices of every kind. Black enamel paint, American steel, and Detroit concrete pridefully come together in its delivery of resistance at 10 feet tall. The sculpture signifies an oversized readymade with a direct call-to-action, using pedestrian signage as the familiarized, conceptual figure.  Inspired by Giacometti’s harrowing life-sized sculptures, The Stop Sign’s direction seeks to empower resistance to the unacceptable injustices, whether cultural, social, or institutional. 
 
 
     Medium: Enamel, Steel, Concrete.
