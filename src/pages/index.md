@@ -6,7 +6,7 @@ iconlink1:
   visible: true
   active: false
 iconlink2:
-  url: mailto:nwp32@comcast.net
+  url: mailto:nealwilsonpage@gmail.com
   visible: true
   active: true
 link1:
